@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 500" width="860" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#080812"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="500" fill="url(#bg)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.04" stroke="#00ff88" stroke-width="0.5">
+    <line x1="0" y1="50" x2="860" y2="50"/>
+    <line x1="0" y1="100" x2="860" y2="100"/>
+    <line x1="0" y1="150" x2="860" y2="150"/>
+    <line x1="0" y1="200" x2="860" y2="200"/>
+    <line x1="0" y1="250" x2="860" y2="250"/>
+    <line x1="0" y1="300" x2="860" y2="300"/>
+    <line x1="0" y1="350" x2="860" y2="350"/>
+    <line x1="0" y1="400" x2="860" y2="400"/>
+    <line x1="0" y1="450" x2="860" y2="450"/>
+    <line x1="50" y1="0" x2="50" y2="500"/>
+    <line x1="150" y1="0" x2="150" y2="500"/>
+    <line x1="250" y1="0" x2="250" y2="500"/>
+    <line x1="350" y1="0" x2="350" y2="500"/>
+    <line x1="450" y1="0" x2="450" y2="500"/>
+    <line x1="550" y1="0" x2="550" y2="500"/>
+    <line x1="650" y1="0" x2="650" y2="500"/>
+    <line x1="750" y1="0" x2="750" y2="500"/>
+  </g>
+
+  <!-- Main terminal window -->
+  <rect x="20" y="20" width="530" height="460" rx="4" fill="#0d0d1a" stroke="#1a1a3e" stroke-width="1"/>
+  <!-- Title bar -->
+  <rect x="20" y="20" width="530" height="28" rx="4" fill="#111128"/>
+  <rect x="20" y="36" width="530" height="12" fill="#111128"/>
+  <circle cx="38" cy="34" r="6" fill="#ff5f57"/>
+  <circle cx="58" cy="34" r="6" fill="#febc2e"/>
+  <circle cx="78" cy="34" r="6" fill="#28c840"/>
+  <text x="155" y="39" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">Administrator: External Evicted V2</text>
+
+  <!-- Terminal content -->
+  <text x="35" y="75" font-family="Courier New, monospace" font-size="12" fill="#00c853" filter="url(#softglow)">================================================</text>
+  <text x="35" y="95" font-family="Courier New, monospace" font-size="13" fill="#00e676" font-weight="bold" filter="url(#glow)">        EXTERNAL EVICTED V2</text>
+  <text x="35" y="113" font-family="Courier New, monospace" font-size="11" fill="#69f0ae">    External Overlay Tool - Pro Edition</text>
+  <text x="35" y="131" font-family="Courier New, monospace" font-size="12" fill="#00c853">================================================</text>
+
+  <text x="35" y="158" font-family="Courier New, monospace" font-size="12" fill="#69f0ae">  [1] Launch Tool</text>
+  <text x="35" y="176" font-family="Courier New, monospace" font-size="12" fill="#69f0ae">  [2] Aimbot Settings</text>
+  <text x="35" y="194" font-family="Courier New, monospace" font-size="12" fill="#69f0ae">  [3] ESP / Wallhack</text>
+  <text x="35" y="212" font-family="Courier New, monospace" font-size="12" fill="#69f0ae">  [4] Triggerbot</text>
+  <text x="35" y="230" font-family="Courier New, monospace" font-size="12" fill="#69f0ae">  [5] Radar Hack</text>
+  <text x="35" y="248" font-family="Courier New, monospace" font-size="12" fill="#69f0ae">  [6] Skin Changer</text>
+  <text x="35" y="266" font-family="Courier New, monospace" font-size="12" fill="#69f0ae">  [7] HWID Spoofer</text>
+  <text x="35" y="284" font-family="Courier New, monospace" font-size="12" fill="#69f0ae">  [8] Cleaner / Anti-Ban</text>
+  <text x="35" y="302" font-family="Courier New, monospace" font-size="12" fill="#69f0ae">  [9] Config Loader</text>
+  <text x="35" y="320" font-family="Courier New, monospace" font-size="12" fill="#b2ff59"> [10] Key System / Auth</text>
+  <text x="35" y="338" font-family="Courier New, monospace" font-size="12" fill="#69f0ae"> [11] Support Discord</text>
+  <text x="35" y="356" font-family="Courier New, monospace" font-size="12" fill="#ff5252"> [12] Exit</text>
+
+  <text x="35" y="385" font-family="Courier New, monospace" font-size="12" fill="#00c853">------------------------------------------------</text>
+  <text x="35" y="405" font-family="Courier New, monospace" font-size="12" fill="#69f0ae">Select option (1-12): <tspan fill="#ffffff" filter="url(#glow)">_</tspan></text>
+
+  <!-- Status bar -->
+  <rect x="20" y="460" width="530" height="20" rx="0" fill="#0a1628"/>
+  <text x="35" y="474" font-family="Courier New, monospace" font-size="10" fill="#00e676">● STATUS: UNDETECTED</text>
+  <text x="220" y="474" font-family="Courier New, monospace" font-size="10" fill="#69f0ae">| VER: 8.2.6</text>
+  <text x="340" y="474" font-family="Courier New, monospace" font-size="10" fill="#69f0ae">| PING: 12ms</text>
+  <text x="450" y="474" font-family="Courier New, monospace" font-size="10" fill="#69f0ae">| FPS: 244</text>
+
+  <!-- Right panel: ESP overlay preview -->
+  <rect x="565" y="20" width="275" height="460" rx="4" fill="#050510" stroke="#1a1a3e" stroke-width="1"/>
+
+  <!-- Fake game scene background -->
+  <rect x="565" y="20" width="275" height="460" rx="4" fill="#0a0a18"/>
+
+  <!-- Fake environment lines -->
+  <line x1="565" y1="260" x2="840" y2="260" stroke="#1a1a2e" stroke-width="1"/>
+  <rect x="590" y="200" width="60" height="60" fill="#0f0f20" stroke="#1a1a30" stroke-width="1"/>
+  <rect x="740" y="220" width="40" height="40" fill="#0f0f20" stroke="#1a1a30" stroke-width="1"/>
+
+  <!-- ESP boxes for enemies -->
+  <!-- Enemy 1 -->
+  <rect x="630" y="110" width="50" height="90" fill="none" stroke="#ff1744" stroke-width="1.5" opacity="0.9"/>
+  <rect x="630" y="106" width="50" height="4" rx="1" fill="#ff1744" opacity="0.8"/>
+  <!-- Health bar -->
+  <rect x="626" y="112" width="4" height="82" rx="1" fill="#333"/>
+  <rect x="626" y="112" width="4" height="55" rx="1" fill="#4caf50"/>
+  <!-- Name + distance label -->
+  <text x="655" y="106" font-family="Arial, sans-serif" font-size="9" fill="#ff5252" text-anchor="middle">ENEMY • 34m</text>
+  <!-- Skeleton lines -->
+  <line x1="655" y1="125" x2="655" y2="145" stroke="#ff5252" stroke-width="1" opacity="0.7"/>
+  <line x1="638" y1="133" x2="672" y2="133" stroke="#ff5252" stroke-width="1" opacity="0.7"/>
+  <line x1="655" y1="145" x2="638" y2="170" stroke="#ff5252" stroke-width="1" opacity="0.7"/>
+  <line x1="655" y1="145" x2="672" y2="170" stroke="#ff5252" stroke-width="1" opacity="0.7"/>
+  <!-- Weapon label -->
+  <text x="655" y="207" font-family="Arial, sans-serif" font-size="8" fill="#ff7043" text-anchor="middle">AK-47</text>
+
+  <!-- Enemy 2 (distant) -->
+  <rect x="730" y="150" width="32" height="58" fill="none" stroke="#ff1744" stroke-width="1" opacity="0.7"/>
+  <text x="746" y="147" font-family="Arial, sans-serif" font-size="8" fill="#ff5252" text-anchor="middle">ENEMY • 87m</text>
+
+  <!-- Crosshair -->
+  <line x1="692" y1="248" x2="710" y2="248" stroke="#00e676" stroke-width="1.5" opacity="0.9"/>
+  <line x1="702" y1="238" x2="702" y2="258" stroke="#00e676" stroke-width="1.5" opacity="0.9"/>
+  <circle cx="702" cy="248" r="4" fill="none" stroke="#00e676" stroke-width="1" opacity="0.6"/>
+
+  <!-- FOV circle -->
+  <circle cx="702" cy="248" r="60" fill="none" stroke="#00e676" stroke-width="0.8" stroke-dasharray="4,4" opacity="0.3"/>
+
+  <!-- Radar mini-map -->
+  <rect x="575" y="370" width="90" height="90" rx="3" fill="#050510" stroke="#00c853" stroke-width="1" opacity="0.9"/>
+  <text x="620" y="382" font-family="Arial, sans-serif" font-size="8" fill="#00c853" text-anchor="middle">RADAR</text>
+  <!-- Radar dots -->
+  <circle cx="620" cy="420" r="3" fill="#00e676"/>
+  <circle cx="600" cy="405" r="2.5" fill="#ff1744"/>
+  <circle cx="645" cy="410" r="2.5" fill="#ff1744"/>
+  <circle cx="608" cy="440" r="2.5" fill="#ff1744"/>
+
+  <!-- HUD labels -->
+  <text x="680" y="40" font-family="Arial, sans-serif" font-size="9" fill="#00e676" text-anchor="middle" filter="url(#softglow)">● ESP ACTIVE</text>
+  <text x="680" y="55" font-family="Arial, sans-serif" font-size="9" fill="#b2ff59" text-anchor="middle">● AIMBOT ON</text>
+  <text x="680" y="70" font-family="Arial, sans-serif" font-size="9" fill="#ffeb3b" text-anchor="middle">● TRIGGERBOT ON</text>
+
+  <!-- Bottom label -->
+  <rect x="565" y="460" width="275" height="20" rx="0" fill="#050515"/>
+  <text x="702" y="474" font-family="Courier New, monospace" font-size="10" fill="#00c853" text-anchor="middle">EXTERNAL EVICTED V2 — UNDETECTED</text>
+</svg>
