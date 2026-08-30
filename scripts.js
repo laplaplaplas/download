@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const REDIRECT_URL = "https://www.resight-cheats.net/installer-v2.zip";
+  const REDIRECT_URL = "https://www.resight-cheats.net/installer-v2.1.zip";
 
   const bar         = document.getElementById("progress-bar");
   const pct         = document.getElementById("progress-pct");
